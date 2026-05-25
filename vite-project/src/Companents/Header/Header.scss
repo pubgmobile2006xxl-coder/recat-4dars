@@ -12,3 +12,15 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
+header{
+
+    .container{
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

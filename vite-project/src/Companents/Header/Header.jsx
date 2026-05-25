@@ -22,9 +22,11 @@ const Header = () => {
                         </select>
                     </ul>
 
-                    <button>Singin</button>
-                    <br />
-                    <button>Sing Up</button>
+                    <div className="btn">
+                        <button>Singin</button>
+                        <br />
+                        <button>Sing Up</button>
+                    </div>
                 </div>
             </div>
         </header>
