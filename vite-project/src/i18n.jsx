@@ -3,26 +3,21 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-
 i18n
-
-.use(Backend)
-
+  .use(Backend)
   .use(LanguageDetector)
-
   .use(initReactI18next)
-
   .init({
     fallbackLng: 'en',
     debug: true,
-
     interpolation: {
       escapeValue: false, 
     },
-    Backend: {
-        loadPath:'/Locals/{{lng}}.json'
+    // DIQQAT: 'Backend' emas, kichik harfda 'backend' bo'lishi shart!
+    backend: {
+      // Standart papka yo'li (public/locales/uz.json kabi bo'ladi)
+      loadPath: '/locales/{{lng}}.json' 
     }
   });
-
 
 export default i18n;
