@@ -1,7 +1,7 @@
 import React from 'react';
 import "./App.css"; 
 import Header from './Companents/Header/Header';
-import Section from "./Companents/Main/Section/Section"
+import Section from './Companents/Main/Section'
 const App = () => {
   return (
     <>
