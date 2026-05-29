@@ -3,7 +3,7 @@ import "./App.css";
 import Header from './Companents/Header/Header';
 import Section from './Companents/Main/Section/Section'
 import Section2 from './Companents/Main/Section2/Section2'
-import Section3 from './Companents/Main/Section3/Section';
+import Section3 from './Companents/Main/Section3/Section3';
 const App = () => {
   return (
     <>
