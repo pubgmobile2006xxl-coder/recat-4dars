@@ -14,7 +14,7 @@
 }
 
 section {
-  background-image: url(../../img/rasm.png);
+  background-image: url("/src/img/rasm.png");
   height: 739px;
 }
 section .container .section_title {

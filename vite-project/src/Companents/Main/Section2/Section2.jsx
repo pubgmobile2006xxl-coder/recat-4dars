@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Section2.css";
-import lec from "../../img/lecture_1.png";
-import ins from "../../img/instructor1.png";
-import suc from "../../img/success1.png"
+import lec from "/src/img/lecture_1.png";
+import ins from "/src/img/instructor1.png";
+import suc from "/src/img/success1.png";
 
 const Section2 = () => {
     return (
