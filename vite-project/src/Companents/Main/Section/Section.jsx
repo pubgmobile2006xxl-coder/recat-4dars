@@ -6,7 +6,7 @@ import "./Section.css";
 const Section = () => {
     return (
         <>
-            <section>
+            <section className='section1'>
                 <div className="container">
                     <div className="section_title">
                         <h1>Self-Paced Learning Courses Online</h1>
