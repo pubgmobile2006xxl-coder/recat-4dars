@@ -13,9 +13,62 @@
     padding: 0 15px;
 }
 
-.section4{
+.section3 {
 
-    .container{
+    .container {
 
+        .cards {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .card_text {
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #222222;
+                    transition: all 1s ease-in-out;
+                    padding-bottom: 25px;
+                }
+
+                h1:hover {
+                    transform: scale(1.1);
+                    color: #086CF9;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 155%;
+                    letter-spacing: 0%;
+                    color: #555555;
+                    transition: all 1s ease-in-out;
+                    padding-bottom: 15px;
+                }
+
+                p:hover {
+                    transform: scale(1.1);
+                    color: #086CF9;
+                }
+
+                a {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    color: #333333;
+                    transition: all 1s ease-in-out;
+                    padding-bottom: 30px;
+                }
+
+                a:hover {
+                    transform: scale(1.1);
+                    color: #086CF9;
+                }
+            }
+        }
     }
 }

@@ -11,4 +11,49 @@
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section3 .container .cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.section3 .container .cards .card_text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #222222;
+  transition: all 1s ease-in-out;
+  padding-bottom: 25px;
+}
+.section3 .container .cards .card_text h1:hover {
+  transform: scale(1.1);
+  color: #086CF9;
+}
+.section3 .container .cards .card_text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0%;
+  color: #555555;
+  transition: all 1s ease-in-out;
+  padding-bottom: 15px;
+}
+.section3 .container .cards .card_text p:hover {
+  transform: scale(1.1);
+  color: #086CF9;
+}
+.section3 .container .cards .card_text a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #333333;
+  transition: all 1s ease-in-out;
+  padding-bottom: 30px;
+}
+.section3 .container .cards .card_text a:hover {
+  transform: scale(1.1);
+  color: #086CF9;
 }/*# sourceMappingURL=Section3.css.map */
