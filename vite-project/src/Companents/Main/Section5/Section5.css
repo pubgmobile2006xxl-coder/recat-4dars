@@ -17,6 +17,9 @@
   margin-top: 100px;
   background: #ECF4FF;
 }
+.section5 .container {
+  text-align: center;
+}
 .section5 .container h1 {
   font-weight: 700;
   font-size: 48px;
@@ -25,6 +28,7 @@
   color: #000000;
   text-align: center;
   padding-bottom: 12px;
+  padding-top: 60px;
   transition: all 1s ease-in-out;
 }
 .section5 .container h1:hover {
@@ -97,4 +101,25 @@
 .section5 .container .cards .card:hover {
   box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.6352941176);
   transform: scale(1.1);
+}
+.section5 .container button {
+  width: 25%;
+  height: 46px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  background: #086CF9;
+  border: none;
+  margin-top: 55px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+  margin-bottom: 60px;
+}
+.section5 .container button:hover {
+  color: #086CF9;
+  background: none;
+  border: 1px solid #086CF9;
+  transform: scale(1.2);
 }/*# sourceMappingURL=Section5.css.map */
