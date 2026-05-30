@@ -63,15 +63,17 @@
                 background: #FFFFFF;
                 text-align: center;
                 padding: 24px;
+                transition: all 1s ease-in-out;
 
-                .chzu{
+                .chzu {
                     width: 100%;
                     height: 1px;
                     background: #E9E8E8;
+
                 }
 
                 .tun {
-                    padding: 24px 0;
+                    margin: 24px 0;
                 }
 
                 .title {
@@ -104,6 +106,10 @@
                     letter-spacing: 0%;
                     color: #555;
                 }
+            }
+            .card:hover{
+                box-shadow: 0px 11px 55px 0px #000000a2;
+                transform: scale(1.1);
             }
         }
     }

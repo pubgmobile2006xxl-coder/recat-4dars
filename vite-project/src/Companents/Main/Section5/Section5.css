@@ -57,6 +57,7 @@
   background: #FFFFFF;
   text-align: center;
   padding: 24px;
+  transition: all 1s ease-in-out;
 }
 .section5 .container .cards .card .chzu {
   width: 100%;
@@ -64,7 +65,7 @@
   background: #E9E8E8;
 }
 .section5 .container .cards .card .tun {
-  padding: 24px 0;
+  margin: 24px 0;
 }
 .section5 .container .cards .card .title {
   display: flex;
@@ -92,4 +93,8 @@
   line-height: 155%;
   letter-spacing: 0%;
   color: #555;
+}
+.section5 .container .cards .card:hover {
+  box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.6352941176);
+  transform: scale(1.1);
 }/*# sourceMappingURL=Section5.css.map */

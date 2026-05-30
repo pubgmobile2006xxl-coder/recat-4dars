@@ -41,9 +41,9 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img className='tun' src={rasm2} alt="rasm" />
+              <img src={rasm2} alt="rasm" />
               <br />
-              <img src={fram2} alt="rasm" />
+              <img className='tun' src={fram2} alt="rasm" />
               <div className="chzu">.</div>
               <div className="title">
                 <h3>Android Developer</h3>
@@ -54,9 +54,9 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img className='tun' src={rasm4} alt="rasm" />
+              <img src={rasm4} alt="rasm" />
               <br />
-              <img src={fram3} alt="rasm" />
+              <img className='tun' src={fram3} alt="rasm" />
               <div className="chzu"></div>
               <div className="title">
                 <h3>Java Script Course</h3>
@@ -67,9 +67,9 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img className='tun' src={rasm5} alt="rasm" />
+              <img src={rasm5} alt="rasm" />
               <br />
-              <img src={fram3} alt="rasm" />
+              <img className='tun' src={fram3} alt="rasm" />
               <div className="chzu"></div>
               <div className="title">
                 <h3>Android Developer</h3>
@@ -80,9 +80,9 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img className='tun' src={rasm3} alt="rasm" />
+              <img src={rasm3} alt="rasm" />
               <br />
-              <img src={fram5} alt="rasm" />
+              <img className='tun' src={fram5} alt="rasm" />
               <div className="chzu"></div>
               <div className="title">
                 <h3>Java Script Course</h3>
@@ -93,9 +93,9 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img className='tun' src={rasm1} alt="rasm" />
+              <img src={rasm1} alt="rasm" />
               <br />
-              <img src={fram6} alt="rasm" />
+              <img className='tun' src={fram6} alt="rasm" />
               <div className="chzu"></div>
               <div className="title">
                 <h3>Basic Marketing</h3>
