@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section5 {
+    margin-top: 100px;
+    background: #ECF4FF;
+
+    .container {
+
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #000000;
+            text-align: center;
+            padding-bottom: 12px;
+            transition: all 1s ease-in-out;
+        }
+
+        h1:hover {
+            transform: scale(1.1);
+            color: #086CF9;
+        }
+
+        .soz {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #555;
+            transition: all 1s ease-in-out;
+        }
+
+        .soz:hover {
+            transform: scale(1.1);
+            color: #086CF9;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+
+            .card {
+                width: 31%;
+                border-radius: 5px;
+                background: #FFFFFF;
+                text-align: center;
+                padding: 24px;
+
+                .chzu{
+                    width: 100%;
+                    height: 1px;
+                    background: #E9E8E8;
+                }
+
+                .tun {
+                    padding: 24px 0;
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 20px 0;
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #333;
+                    }
+
+                    p {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #086CF9;
+                    }
+                }
+
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 155%;
+                    letter-spacing: 0%;
+                    color: #555;
+                }
+            }
+        }
+    }
+}

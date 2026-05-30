@@ -20,7 +20,7 @@ const Section5 = () => {
       <section className="section5">
         <div className="container">
           <h1>Our All The Online Courses</h1>
-          <p>
+          <p className='soz'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
@@ -30,8 +30,8 @@ const Section5 = () => {
             <div className="card">
               <img src={rasm6} alt="rasm" />
               <br />
-              <img src={fram1} alt="rasm" />
-              <div className="chzu">.</div>
+              <img className='tun' src={fram1} alt="rasm" />
+              <div className="chzu"></div>
               <div className="title">
                 <h3>Development</h3>
                 <p>$150</p>
@@ -41,7 +41,7 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img src={rasm2} alt="rasm" />
+              <img className='tun' src={rasm2} alt="rasm" />
               <br />
               <img src={fram2} alt="rasm" />
               <div className="chzu">.</div>
@@ -54,10 +54,10 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img src={rasm4} alt="rasm" />
+              <img className='tun' src={rasm4} alt="rasm" />
               <br />
               <img src={fram3} alt="rasm" />
-              <div className="chzu">.</div>
+              <div className="chzu"></div>
               <div className="title">
                 <h3>Java Script Course</h3>
                 <p>$140</p>
@@ -67,10 +67,10 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img src={rasm5} alt="rasm" />
+              <img className='tun' src={rasm5} alt="rasm" />
               <br />
               <img src={fram3} alt="rasm" />
-              <div className="chzu">.</div>
+              <div className="chzu"></div>
               <div className="title">
                 <h3>Android Developer</h3>
                 <p>$120</p>
@@ -80,10 +80,10 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img src={rasm3} alt="rasm" />
+              <img className='tun' src={rasm3} alt="rasm" />
               <br />
               <img src={fram5} alt="rasm" />
-              <div className="chzu">.</div>
+              <div className="chzu"></div>
               <div className="title">
                 <h3>Java Script Course</h3>
                 <p>$120</p>
@@ -93,10 +93,10 @@ const Section5 = () => {
             </div>
 
             <div className="card">
-              <img src={rasm1} alt="rasm" />
+              <img className='tun' src={rasm1} alt="rasm" />
               <br />
               <img src={fram6} alt="rasm" />
-              <div className="chzu">.</div>
+              <div className="chzu"></div>
               <div className="title">
                 <h3>Basic Marketing</h3>
                 <p>$100</p>
